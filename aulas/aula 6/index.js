@@ -93,7 +93,7 @@ console.log(condicao3) //resultado false*/
 /*const numero1 = 4
 const numero2 = 5 
 const condicao =numero1 === numero2
-console.log("o primeiro numero é igual ao segundo?", condicao)// resultado false*/
+console.log("o primeiro numero é igual ao segundo?", condicao)// resultado false*/ qqq
 /*const numero1 = 6
 const numero2 = 6
 const condicao = numero1 !== numero2
