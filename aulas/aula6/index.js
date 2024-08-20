@@ -106,3 +106,15 @@ console.log("o primeiro numero é maior que o segundo?", condicao)// resultado f
 const numero2 = 5
 const condicao = numero1 > numero2
 console.log("o primeiro numero é menor que o segundo?", condicao)*/
+
+// const resultado = 11 % 4
+ 
+//console.log(resultado)
+
+let resultado = 100
+
+resultado = resultado + 10
+console.log (resultado)
+
+let resultado1 = 100
+
