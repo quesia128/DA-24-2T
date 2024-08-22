@@ -79,5 +79,24 @@ console.log("c. ", resultado)
 
 console.log("d. ", typeof resultado)*/
 
+/*let primeiroNumero = Number (prompt("Digite um numero!"))
+let segundoNumero = Number (prompt("Digite outro numero!"))
+
+const soma = primeiroNumero + segundoNumero
+
+console.log(soma)*/
+
+
+/*const idadeUsuario = Number(prompt("sua idade?"))
+const idadeAmigo = Number(prompt("idade do melhor amigo?"))
+
+let resultado = idadeUsuario > idadeAmigo
+console.log("sua idade é maior do que a do seu melhor amigo?", resultado)
+
+resultado = idadeUsuario-idadeAmigo
+console.log(idadeUsuario-idadeAmigo)*/
+
+/*const nPar = number(prompt("digite um numero par"))
+console.log(nPar%2)//o resto da divisão é diferente de 0*/
 
 
