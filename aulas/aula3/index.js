@@ -36,3 +36,4 @@ const idadeTexto2 = "23"
 const idadeNumero2 = Number(idadeTexto2)
 console.log(typeof idadeTexto2)
 console.log(typeof idadeNumero2)
+

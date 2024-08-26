@@ -130,10 +130,29 @@ console.log(letras)
 letras.splice(5,2)*/
 
 
-const numeros = [1,2,3,4,5,6]
+/*const numeros = [1,2,3,4,5,6]
 
 numeros.splice(7)
 
 console.log(numeros)
 
-numeros.splice(4,5)
+numeros.splice(4,5)*/
+
+
+/*const listaNumeros = [1,2,3,4,5,6]
+
+console.log(listaNumeros.length)
+
+console.log(listaNumeros)
+
+listaNumeros.push(7)
+
+listaNumeros.splice(3,2)
+
+console.log(listaNumeros.length)
+
+console.log(listaNumeros)*/
+
+
+
+
