@@ -166,11 +166,11 @@ if (tipoJogo === "DO") {
     console.log("O etapa do jogo selecionado:", etapaJogo)
     console.log("O categoria do jogo selecionado:", categoria)
     console.log("O valor do ingresso é:", valorIngresso)
-    console.log(`O valor total com ${quantidade} ingressos é: ${valorIngresso*quantidade}`)
+    console.log(`O valor total com ${quantidade} ingressos é: ${valorIngresso * quantidade}`)
 } else {
     console.log("O tipo do jogo selecionado:", tipoJogo)
     console.log("O etapa do jogo selecionado:", etapaJogo)
     console.log("O categoria do jogo selecionado:", categoria)
     console.log("O valor do ingresso é:", valorIngresso)
-    console.log(`O valor total com ${quantidade} ingressos é: ${valorIngresso*5,65*quantidade}`)
+    console.log(`O valor total com ${quantidade} ingressos é: ${valorIngresso * 5, 65 * quantidade}`)
 }
