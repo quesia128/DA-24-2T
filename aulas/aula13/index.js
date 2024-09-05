@@ -11,7 +11,7 @@ for(numero of lista){
     if(numero > 18){
         console.log(numero)
     }
-}//esta pedindo uma lista dos numeros impares 
+}//esta pedindo uma lista dos numeros que forem maior que 18
 */
 
 /*
@@ -55,7 +55,7 @@ console.log(pets)*/
 
 
 
-
+/*
 const arrayOriginal = [10,11,12,13,14,15,16,17,18]
 
 for(let i = 0; i < arrayOriginal.length; i++){
@@ -66,3 +66,30 @@ for(let i = 0; i < arrayOriginal.length; i++){
     console.log(arrayOriginal[i] / 10)
     
 }
+*/
+
+
+
+
+
+
+/*
+arrayOriginal = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+for(let numero of arrayOriginal){console.log(numero)}
+
+for(let numero of arrayOriginal){console.log(numero/10)}
+
+let arrayPares = []
+for(let numero of arrayOriginal){if(numero%2===0){arrayPares.push(numero)}}
+console.log(arrayPares)
+/*
+let arrayFrases = []
+for(let i = 0; i<arrayOriginal.length; i++){
+    arrayFrases.push("O elemento do index"+i+"é"+arrayOriginal[i])
+}console.log(arrayFrases)
+
+let maiorNum = arrayOriginal[0]
+let menorNum = arrayOriginal[0]
+for(let numero of arrayOriginal){if(numero>maiorNum){maiorNum=numero}
+else if(numero<menorNum){menorNum = numero}}
+console.log("menorNum é:", menorNum,"maiorNum é:",maiorNum)
