@@ -46,3 +46,4 @@ for(let i=0; i<5; i++){
     const notas = Number(prompt("Insira as notas de cinco alunos:"))
 
 }
+
