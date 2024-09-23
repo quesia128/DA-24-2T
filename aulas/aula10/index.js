@@ -67,8 +67,8 @@ if(num1===num2){
 */
 
 
-
-/*let paisDeOrigem = prompt("Digite o pais de origem")
+/*
+let paisDeOrigem = prompt("Digite o pais de origem")
 
 switch(paisDeOrigem){
     case "Brasil":
