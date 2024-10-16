@@ -1,0 +1,75 @@
+class Item {
+    constructor(nome) {
+        this.nome = nome
+    }
+}
+
+class Inventario {
+    constructor() {
+        this.slots = new Array(10).fill(null)
+         // 10 slots vazios
+    }
+
+    adicionarItem(item) {
+        for (let i = 0; i < this.slots.length; i++) {
+            if (this.slots[i] === null) {
+                this.slots[i] = item
+                return true; // Adicionado com sucesso
+            }
+        }
+        return false; // Inventário cheio
+    }
+
+    removerItem(index) {
+        if (index >= 0 && index < this.slots.length && this.slots[index] !== null) {
+            this.slots[index] = null
+            // Remove item
+            return true
+        }
+        return false
+        // Índice inválido ou slot vazio
+    }
+}
+class Inimigo {
+    constructor(nome, vida) {
+        this.nome = nome
+        this.vida = vida
+    }
+}
+
+class Cena {
+    constructor() {
+        this.inimigos = []
+    }
+
+    adicionarInimigo(inimigo) {
+        this.inimigos.push(inimigo)
+    }
+
+    atacarInimigo(index, dano) {
+        if (index >= 0 && index < this.inimigos.length) {
+            this.inimigos[index].vida -= dano
+            if (this.inimigos[index].vida <= 0) {
+                this.inimigos.splice(index, 1)
+                 // Remove inimigo morto
+            }
+        }
+    }
+}
+class Jogador {
+    constructor() {
+        this.vida = 100
+        this.historicoVida = []
+    }
+
+    salvarEstado() {
+        this.historicoVida.push(this.vida)
+    }
+
+    restaurarEstado() {
+        if (this.historicoVida.length > 0) {
+            this.vida = this.historicoVida[this.historicoVida.length - 1] 
+            // Restaura última vida salva
+        }
+    }
+}
